@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Premium TV Packages",
   description: "Get premium TV packages for sports, movies, and family entertainment. High-quality, reliable streams on all your favorite devices.",
   url: "https://premiumtvpackages.com",
-  whatsappNumber: "+44 7862 120843", // WhatsApp number
+  whatsappNumber: "+44 7988 595964", // WhatsApp number
   whatsappMessageDefault: "Hello! I am interested in your Premium TV Packages. Can you please provide more information?",
   contactEmail: "support@premiumtvpackages.com",
   supportHours: "24/7 Premium Support",

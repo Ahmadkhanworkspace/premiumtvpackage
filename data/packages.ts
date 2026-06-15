@@ -13,14 +13,32 @@ export interface PackagePlan {
 
 export const packagesData: PackagePlan[] = [
   {
+    id: "1-month",
+    name: "1 Month",
+    badgeText: "TRIAL",
+    price: 15,
+    duration: "1 Month",
+    channelsCount: "45,000+",
+    vodCount: "140,000+",
+    description: "Perfect for testing our high-speed global routing infrastructure. Enjoy buffer-free streaming with our introductory one-month plan.",
+    features: [
+      "All AU/UK/USA Channels",
+      "45,000+ Channels",
+      "140,000+ Movies & Series",
+      "EPG TV Guide",
+      "Adult Channels (Optional)",
+      "24/7 Support"
+    ],
+  },
+  {
     id: "3-months",
     name: "3 Months",
     badgeText: "STARTER",
-    price: 45,
+    price: 25,
     duration: "3 Months",
     channelsCount: "45,000+",
     vodCount: "140,000+",
-    description: "Enjoy buffer-free streaming with our introductory three-month plan. Perfect to test our high-speed global routing infrastructure.",
+    description: "Enjoy buffer-free streaming with our highly valued three-month plan. Perfect for continuous entertainment.",
     features: [
       "All AU/UK/USA Channels",
       "45,000+ Channels",
@@ -34,7 +52,7 @@ export const packagesData: PackagePlan[] = [
     id: "6-months",
     name: "6 Months",
     badgeText: "MOST POPULAR",
-    price: 75,
+    price: 40,
     duration: "6 Months",
     channelsCount: "45,000+",
     vodCount: "140,000+",
@@ -53,7 +71,7 @@ export const packagesData: PackagePlan[] = [
     id: "12-months",
     name: "12 Months",
     badgeText: "BEST VALUE",
-    price: 120,
+    price: 65,
     duration: "12 Months",
     channelsCount: "45,000+",
     vodCount: "140,000+",
